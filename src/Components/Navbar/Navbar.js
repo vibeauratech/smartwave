@@ -9,10 +9,13 @@ const Navbar = () => {
        <div>
          <div className="navbar">
           <div className='nav-con'>
-            <div className='logo'>
-              <img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706271726/Smartwave_FavIcon_jc0dsq.png" alt="" />
-              <p>SmartWave</p> 
-            </div>
+            <Link  to= {`./`}> 
+               <div className='logo'>
+               <img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706271726/Smartwave_FavIcon_jc0dsq.png" alt="" />
+               <p>SmartWave</p> 
+               </div>
+            </Link>
+           
 
            <ul className="nav-items">
               <li>

@@ -27,6 +27,8 @@
 .footer-logo p{
     width: 40%;
     margin-top: 10px;
+    font-size: 18px;
+    line-height: 28px;
     font-family:'Aoenik-Regular';
 }
 

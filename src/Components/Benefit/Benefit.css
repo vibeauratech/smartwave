@@ -15,6 +15,59 @@
     font-size: 48px;
 }
 
+.ben-con{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.ben-box{
+    max-width: 280px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #8d29e441;
+    border-radius: 30px;
+    transition: all ease-in 0.3s;
+    border: 2px solid #8d29e441;
+    cursor: pointer;
+}
+
+.ben-box:hover{
+    border: 2px solid #8C29E4;
+    scale: 0.95;
+}
+
+.ben-icon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50%;
+    background: #8C29E4;
+}
+
+.ben-icon img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.ben-box p{
+    font-family:'Aoenik-Bold';  
+}
+
+.ben-box span{
+    font-family:'Aoenik-Regular';  
+}
+
 
 @media screen and (max-width:900px){
     .benefit{
@@ -25,12 +78,38 @@
         flex-direction: column;
         align-items: center;
     }
-    
+
     .benefit h2{
         width: 100%;
         margin: 0 auto;
         text-align: center;
         font-family:'Aoenik-Bold';
         font-size: 36px;
+    }
+
+    .ben-con{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .ben-box{
+        max-width: 280px;
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        background: #8d29e441;
+        border-radius: 30px;
+        transition: all ease-in 0.3s;
+        border: 2px solid #8d29e441;
+        cursor: pointer;
     }
 }

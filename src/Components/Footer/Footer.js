@@ -29,22 +29,23 @@ function Footer() {
         </div>
 
         <div className='footer-link'>
-          <p>Legal</p>
-          <span>About Us</span>
+          <p>Info</p>
+          <span>Affiliate network</span>
+          <span>Vendors</span>
+          <span>Refund Policy</span>
           <span>FAQs</span>
-          <span>About Us</span>
         </div>
 
         <div className='footer-link'>
           <p>Help</p>
           <span>Terms of Use</span>
-          <span>FAQs</span>
-          <span>About Us</span>
+          <span>Privacy Policy</span>
+          <span>Disclaimer</span>
         </div>
       </div>
 
-      <div>
-        <div>
+      <div className='copy-con'>
+        <div className='copy'>
          <p>Copyright © 2023. 3Ci Consulting Limited</p>
         </div>
 

@@ -55,6 +55,14 @@
     font-family:'Aoenik-Regular';
 }
 
+.copy-con{
+    padding-top: 50px;
+}
+
+.copy p{
+    font-family:'Aoenik-Regular';  
+}
+
 @media screen and (max-width:900px){
     .footer{
         width: 100%;

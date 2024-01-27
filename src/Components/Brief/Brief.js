@@ -6,7 +6,7 @@ function Brief() {
     <div className='brief'>
         <div>
             <h2>
-              Join Over 20,000 <strong>Happy Affiliates</strong> and 500+ <strong>Successful</strong> Vendors   
+              Join Over 50,000 <strong>Happy Affiliates</strong> and 500+ <strong>Successful</strong> Vendors   
             </h2>
         </div>
 

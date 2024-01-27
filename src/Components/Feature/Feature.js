@@ -13,7 +13,7 @@ function Feature() {
               <img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706319001/icons8-web-50_ih3lsh.png" alt="" />
             </div>
             <p>Digital Marketplace Dominance</p>
-            <span>With an extensive catalog of high-demand digital products, our affiliates have tapped into a goldmine of opportunities, earning consistently over 500,000 Naira a month</span>
+            <span>With an extensive catalog of high-demand digital products, our affiliates have tapped into a goldmine of opportunities, earning consistently over #500,000 Naira a month</span>
         </div>
 
         <div className='key'>

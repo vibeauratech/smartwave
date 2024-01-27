@@ -42,7 +42,7 @@ const Navbar = () => {
 
   
             <div className='try-btn'>
-               <Link  to= {`./application`}> <button>Get Started</button> </Link>  
+               <Link  to= {`./`}> <button>Login</button> </Link>  
              
                 <div className='menu-toggle' onClick={() => setNavOpen(!navOpen)}>
                     <div className= {navOpen ? "hamBox hamBoxOpen" : "hamBox"}>

@@ -13,7 +13,7 @@ function Benefit() {
               <img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706321775/icons8-jet-85_q3ekaa.png" alt="" />
              </div>
              <p>Proven Success</p>
-             <span>Join a community where over 20,000 affiliates are already flourishing and over 500 vendors have found unprecedented success.</span>
+             <span>Join a community where over 50,000 affiliates are already flourishing and over 500 vendors have found unprecedented success.</span>
             </div>
 
             <div className='ben-box'>
@@ -21,7 +21,7 @@ function Benefit() {
               <img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706321775/icons8-money-50_na1zld.png" alt="" />
              </div>
              <p>Lucrative Earning Potential</p>
-             <span> Our affiliates consistently make over 500,000 Naira a month – a testament to the extraordinary earning potential within the SmartWave ecosystem.</span>
+             <span> Our affiliates consistently make over #500,000 Naira a month – a testament to the extraordinary earning potential within the SmartWave ecosystem.</span>
             </div>
 
             <div className='ben-box'>
@@ -44,8 +44,8 @@ function Benefit() {
              <div className='ben-icon'>
               <img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706319001/icons8-team-50_i0hmdx.png" alt="" />
              </div>
-             <p>Community Strength</p>
-             <span> Join a network of like-minded individuals, share experiences, and learn from the best in the business. Together, we grow stronger.</span>
+             <p>Refer and Earn</p>
+             <span> Introduce others to SmartWave, watch them succeed, and enjoy the compounding benefits of our referral system.</span>
             </div>
 
             <div className='ben-box'>

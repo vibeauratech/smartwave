@@ -62,6 +62,12 @@
     font-family:'Aoenik-Bold';
     padding: 12px 16px;
     cursor: pointer;
+    transition: all ease-in 0.3s;
+}
+
+.quick div button:hover{
+    background: #8C29E4;
+    color: #fff;
 }
 
 @media screen and (max-width:900px){

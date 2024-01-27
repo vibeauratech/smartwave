@@ -15,6 +15,10 @@
     gap: 10px;
 }
 
+.footer-brand img{
+    object-fit: cover;
+}
+
 .footer-brand span{
     font-size: 24px;
     font-family:'Aoenik-Regular';  
@@ -50,6 +54,12 @@
 }
 
 @media screen and (max-width:900px){
+    .footer{
+        width: 100%;
+        margin: 0 auto;
+        padding: 5% 8%;
+    }
+
     .footer-logo p{
         width: 100%;
         margin-top: 10px;

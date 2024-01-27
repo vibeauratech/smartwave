@@ -1,0 +1,466 @@
+.hero{
+    width: 100%;
+    background: #8C29E4;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.hero h2{
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+    font-family:'Aoenik-Bold';
+    font-size: 64px;
+    color: #fff;
+}
+
+.hero p{
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    font-family:'Aoenik-Regular';
+    color: #fff;
+}
+
+.hero-btn{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.get{
+    background: #fff;
+    font-family:'Aoenik-Bold';
+    border-radius: 30px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all ease-in 0.3s;
+}
+
+.get:hover{
+    background: #5B139B;  
+    color: #fff;
+}
+
+.learn{
+    background: transparent;
+    color: #fff;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    font-family:'Aoenik-Bold';
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all ease-in 0.3s;
+}
+
+.learn:hover{
+    background: #f9f9f9;  
+    color: #000;
+}
+
+.hero-img{
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.hero-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cover{
+  width: 70%;
+  height: 20px;
+  margin-top: -20px;
+  background: #F29F05;
+  border-radius: 30px 30px 0 0;
+}
+
+.area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#000, #1a1a1a);
+    width: 100%;
+    position: relative;
+  }
+  
+  .flake {
+    transform-origin: center;
+  }
+  .flake:after {
+    content: ".";
+    color: transparent;
+    display: inline-block;
+    position: absolute;
+    width: 0;
+    height: 0;
+  }
+  .flake:nth-child(0):after {
+    box-shadow: 0px 0px 0px 23px rgba(255, 255, 255, 0.36);
+    left: 100vw;
+    top: 81vh;
+    -webkit-animation: snow 30s 0s linear infinite;
+            animation: snow 30s 0s linear infinite;
+  }
+  .flake:nth-child(1):after {
+    box-shadow: 0px 0px 0px 15px rgba(255, 255, 255, 0.32);
+    left: 21vw;
+    top: 1vh;
+    -webkit-animation: snow 26s 0s linear infinite;
+            animation: snow 26s 0s linear infinite;
+  }
+  .flake:nth-child(2):after {
+    box-shadow: 0px 0px 0px 13px rgba(255, 255, 255, 0.35);
+    left: 72vw;
+    top: 45vh;
+    -webkit-animation: snow 13s 0s linear infinite;
+            animation: snow 13s 0s linear infinite;
+  }
+  .flake:nth-child(3):after {
+    box-shadow: 0px 0px 0px 30px rgba(255, 255, 255, 0.39);
+    left: 22vw;
+    top: 31vh;
+    -webkit-animation: snow 13s 0s linear infinite;
+            animation: snow 13s 0s linear infinite;
+  }
+  .flake:nth-child(4):after {
+    box-shadow: 0px 0px 0px 13px rgba(255, 255, 255, 0.39);
+    left: 46vw;
+    top: 17vh;
+    -webkit-animation: snow 22s 0s linear infinite;
+            animation: snow 22s 0s linear infinite;
+  }
+  .flake:nth-child(5):after {
+    box-shadow: 0px 0px 0px 14px rgba(255, 255, 255, 0.31);
+    left: 37vw;
+    top: 92vh;
+    -webkit-animation: snow 25s 0s linear infinite;
+            animation: snow 25s 0s linear infinite;
+  }
+  .flake:nth-child(6):after {
+    box-shadow: 0px 0px 0px 22px rgba(255, 255, 255, 0.35);
+    left: 16vw;
+    top: 39vh;
+    -webkit-animation: snow 28s 0s linear infinite;
+            animation: snow 28s 0s linear infinite;
+  }
+  .flake:nth-child(7):after {
+    box-shadow: 0px 0px 0px 25px rgba(255, 255, 255, 0.39);
+    left: 74vw;
+    top: 76vh;
+    -webkit-animation: snow 12s 0s linear infinite;
+            animation: snow 12s 0s linear infinite;
+  }
+  .flake:nth-child(8):after {
+    box-shadow: 0px 0px 0px 16px rgba(255, 255, 255, 0.36);
+    left: 20vw;
+    top: 53vh;
+    -webkit-animation: snow 29s 0s linear infinite;
+            animation: snow 29s 0s linear infinite;
+  }
+  .flake:nth-child(9):after {
+    box-shadow: 0px 0px 0px 25px rgba(255, 255, 255, 0.35);
+    left: 64vw;
+    top: 55vh;
+    -webkit-animation: snow 19s 0s linear infinite;
+            animation: snow 19s 0s linear infinite;
+  }
+  .flake:nth-child(10):after {
+    box-shadow: 0px 0px 0px 27px rgba(255, 255, 255, 0.39);
+    left: 14vw;
+    top: 84vh;
+    -webkit-animation: snow 26s 0s linear infinite;
+            animation: snow 26s 0s linear infinite;
+  }
+  .flake:nth-child(11):after {
+    box-shadow: 0px 0px 0px 15px rgba(255, 255, 255, 0.35);
+    left: 87vw;
+    top: 2vh;
+    -webkit-animation: snow 29s 0s linear infinite;
+            animation: snow 29s 0s linear infinite;
+  }
+  .flake:nth-child(12):after {
+    box-shadow: 0px 0px 0px 29px rgba(255, 255, 255, 0.32);
+    left: 12vw;
+    top: 39vh;
+    -webkit-animation: snow 22s 0s linear infinite;
+            animation: snow 22s 0s linear infinite;
+  }
+  .flake:nth-child(13):after {
+    box-shadow: 0px 0px 0px 23px rgba(255, 255, 255, 0.36);
+    left: 41vw;
+    top: 6vh;
+    -webkit-animation: snow 24s 0s linear infinite;
+            animation: snow 24s 0s linear infinite;
+  }
+  .flake:nth-child(14):after {
+    box-shadow: 0px 0px 0px 26px rgba(255, 255, 255, 0.33);
+    left: 67vw;
+    top: 16vh;
+    -webkit-animation: snow 29s 0s linear infinite;
+            animation: snow 29s 0s linear infinite;
+  }
+  .flake:nth-child(15):after {
+    box-shadow: 0px 0px 0px 23px rgba(255, 255, 255, 0.34);
+    left: 70vw;
+    top: 28vh;
+    -webkit-animation: snow 25s 0s linear infinite;
+            animation: snow 25s 0s linear infinite;
+  }
+  .flake:nth-child(16):after {
+    box-shadow: 0px 0px 0px 28px rgba(255, 255, 255, 0.32);
+    left: 17vw;
+    top: 34vh;
+    -webkit-animation: snow 23s 0s linear infinite;
+            animation: snow 23s 0s linear infinite;
+  }
+  .flake:nth-child(17):after {
+    box-shadow: 0px 0px 0px 12px rgba(255, 255, 255, 0.38);
+    left: 77vw;
+    top: 82vh;
+    -webkit-animation: snow 16s 0s linear infinite;
+            animation: snow 16s 0s linear infinite;
+  }
+  .flake:nth-child(18):after {
+    box-shadow: 0px 0px 0px 23px rgba(255, 255, 255, 0.35);
+    left: 7vw;
+    top: 32vh;
+    -webkit-animation: snow 16s 0s linear infinite;
+            animation: snow 16s 0s linear infinite;
+  }
+  .flake:nth-child(19):after {
+    box-shadow: 0px 0px 0px 12px rgba(255, 255, 255, 0.37);
+    left: 76vw;
+    top: 76vh;
+    -webkit-animation: snow 17s 0s linear infinite;
+            animation: snow 17s 0s linear infinite;
+  }
+  .flake:nth-child(20):after {
+    box-shadow: 0px 0px 0px 28px rgba(255, 255, 255, 0.33);
+    left: 47vw;
+    top: 35vh;
+    -webkit-animation: snow 28s 0s linear infinite;
+            animation: snow 28s 0s linear infinite;
+  }
+  .flake:nth-child(21):after {
+    box-shadow: 0px 0px 0px 25px rgba(255, 255, 255, 0.37);
+    left: 88vw;
+    top: 4vh;
+    -webkit-animation: snow 16s 0s linear infinite;
+            animation: snow 16s 0s linear infinite;
+  }
+  .flake:nth-child(22):after {
+    box-shadow: 0px 0px 0px 25px rgba(255, 255, 255, 0.34);
+    left: 12vw;
+    top: 85vh;
+    -webkit-animation: snow 17s 0s linear infinite;
+            animation: snow 17s 0s linear infinite;
+  }
+  .flake:nth-child(23):after {
+    box-shadow: 0px 0px 0px 17px rgba(255, 255, 255, 0.36);
+    left: 40vw;
+    top: 17vh;
+    -webkit-animation: snow 24s 0s linear infinite;
+            animation: snow 24s 0s linear infinite;
+  }
+  .flake:nth-child(24):after {
+    box-shadow: 0px 0px 0px 26px rgba(255, 255, 255, 0.39);
+    left: 60vw;
+    top: 43vh;
+    -webkit-animation: snow 29s 0s linear infinite;
+            animation: snow 29s 0s linear infinite;
+  }
+  .flake:nth-child(25):after {
+    box-shadow: 0px 0px 0px 23px rgba(255, 255, 255, 0.32);
+    left: 31vw;
+    top: 54vh;
+    -webkit-animation: snow 15s 0s linear infinite;
+            animation: snow 15s 0s linear infinite;
+  }
+  .flake:nth-child(26):after {
+    box-shadow: 0px 0px 0px 24px rgba(255, 255, 255, 0.39);
+    left: 68vw;
+    top: 50vh;
+    -webkit-animation: snow 13s 0s linear infinite;
+            animation: snow 13s 0s linear infinite;
+  }
+  .flake:nth-child(27):after {
+    box-shadow: 0px 0px 0px 11px rgba(255, 255, 255, 0.37);
+    left: 56vw;
+    top: 96vh;
+    -webkit-animation: snow 13s 0s linear infinite;
+            animation: snow 13s 0s linear infinite;
+  }
+  .flake:nth-child(28):after {
+    box-shadow: 0px 0px 0px 19px rgba(255, 255, 255, 0.31);
+    left: 53vw;
+    top: 72vh;
+    -webkit-animation: snow 14s 0s linear infinite;
+            animation: snow 14s 0s linear infinite;
+  }
+  .flake:nth-child(29):after {
+    box-shadow: 0px 0px 0px 12px rgba(255, 255, 255, 0.34);
+    left: 37vw;
+    top: 66vh;
+    -webkit-animation: snow 13s 0s linear infinite;
+            animation: snow 13s 0s linear infinite;
+  }
+  .flake:nth-child(30):after {
+    box-shadow: 0px 0px 0px 27px rgba(255, 255, 255, 0.39);
+    left: 23vw;
+    top: 15vh;
+    -webkit-animation: snow 17s 0s linear infinite;
+            animation: snow 17s 0s linear infinite;
+  }
+  .flake:nth-child(31):after {
+    box-shadow: 0px 0px 0px 19px rgba(255, 255, 255, 0.36);
+    left: 72vw;
+    top: 61vh;
+    -webkit-animation: snow 15s 0s linear infinite;
+            animation: snow 15s 0s linear infinite;
+  }
+  .flake:nth-child(32):after {
+    box-shadow: 0px 0px 0px 16px rgba(255, 255, 255, 0.35);
+    left: 89vw;
+    top: 67vh;
+    -webkit-animation: snow 30s 0s linear infinite;
+            animation: snow 30s 0s linear infinite;
+  }
+  .flake:nth-child(33):after {
+    box-shadow: 0px 0px 0px 13px rgba(255, 255, 255, 0.39);
+    left: 68vw;
+    top: 33vh;
+    -webkit-animation: snow 28s 0s linear infinite;
+            animation: snow 28s 0s linear infinite;
+  }
+  .flake:nth-child(34):after {
+    box-shadow: 0px 0px 0px 14px rgba(255, 255, 255, 0.36);
+    left: 97vw;
+    top: 31vh;
+    -webkit-animation: snow 15s 0s linear infinite;
+            animation: snow 15s 0s linear infinite;
+  }
+  .flake:nth-child(35):after {
+    box-shadow: 0px 0px 0px 19px rgba(255, 255, 255, 0.36);
+    left: 30vw;
+    top: 13vh;
+    -webkit-animation: snow 21s 0s linear infinite;
+            animation: snow 21s 0s linear infinite;
+  }
+  .flake:nth-child(36):after {
+    box-shadow: 0px 0px 0px 15px rgba(255, 255, 255, 0.37);
+    left: 12vw;
+    top: 18vh;
+    -webkit-animation: snow 24s 0s linear infinite;
+            animation: snow 24s 0s linear infinite;
+  }
+  .flake:nth-child(37):after {
+    box-shadow: 0px 0px 0px 26px rgba(255, 255, 255, 0.35);
+    left: 94vw;
+    top: 97vh;
+    -webkit-animation: snow 30s 0s linear infinite;
+            animation: snow 30s 0s linear infinite;
+  }
+  .flake:nth-child(38):after {
+    box-shadow: 0px 0px 0px 29px rgba(255, 255, 255, 0.4);
+    left: 4vw;
+    top: 24vh;
+    -webkit-animation: snow 20s 0s linear infinite;
+            animation: snow 20s 0s linear infinite;
+  }
+  .flake:nth-child(39):after {
+    box-shadow: 0px 0px 0px 25px rgba(255, 255, 255, 0.37);
+    left: 6vw;
+    top: 72vh;
+    -webkit-animation: snow 12s 0s linear infinite;
+            animation: snow 12s 0s linear infinite;
+  }
+  .flake:nth-child(40):after {
+    box-shadow: 0px 0px 0px 11px rgba(255, 255, 255, 0.32);
+    left: 88vw;
+    top: 99vh;
+    -webkit-animation: snow 16s 0s linear infinite;
+            animation: snow 16s 0s linear infinite;
+  }
+  
+  @-webkit-keyframes snow {
+    0% {
+      transform: rotate(0deg);
+      margin-top: -50vh;
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: rotate(360deg);
+      margin-top: 50vh;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes snow {
+    0% {
+      transform: rotate(0deg);
+      margin-top: -50vh;
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: rotate(360deg);
+      margin-top: 50vh;
+      opacity: 0;
+    }
+  }
+
+
+  @media screen and (max-width:900px){ 
+    .hero{
+        width: 100%;
+        background: #8C29E4;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+          
+    .hero h2{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 150px;
+        text-align: center;
+        font-family:'Aoenik-Bold';
+        font-size: 48px;
+        color: #fff;
+    }
+
+    .hero p{
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 30px;
+        font-family:'Aoenik-Regular';
+        color: #fff;
+    }
+
+    .hero-img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+  }

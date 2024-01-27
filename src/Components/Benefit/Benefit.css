@@ -1,0 +1,36 @@
+.benefit{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.benefit h2{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-family:'Aoenik-Bold';
+    font-size: 48px;
+}
+
+
+@media screen and (max-width:900px){
+    .benefit{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .benefit h2{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        font-family:'Aoenik-Bold';
+        font-size: 36px;
+    }
+}

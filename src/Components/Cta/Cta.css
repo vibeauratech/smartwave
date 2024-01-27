@@ -11,12 +11,21 @@
 .flap-con{
     flex-basis: 48%; 
     padding: 6% 4%;
+    position: relative;
+    border-radius: 40px;
+    overflow: hidden;
 }
+
 
 .flap-con h2{
     color: #fff;
     font-family:'Aoenik-Bold';
     font-size: 48px;
+   
+}
+
+.flap-con h2 strong{
+    color: #F29F05;
 }
 
 .flap-con button{
@@ -74,6 +83,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        border-radius:25px ;
     }
 
     .flap-con h2{

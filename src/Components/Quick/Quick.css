@@ -21,9 +21,8 @@
     font-size: 48px;
 }
 
-.quick div h2{
-    font-size: 48px;
-    font-family:'Aoenik-Bold';
+.quick div h2 strong{
+    color: #F29F05;
 }
 
 .signing{

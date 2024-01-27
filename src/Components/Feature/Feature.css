@@ -22,6 +22,10 @@
     font-size: 48px;
 }
 
+.feature h2 strong{
+    color: #F29F05;
+}
+
 .key-features{
     margin-top: 50px;
     display: flex;

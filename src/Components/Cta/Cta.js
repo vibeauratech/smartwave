@@ -6,7 +6,7 @@ function Cta() {
     <div className='cta'>
         <div className='flap-con'>
             <div className='flap'></div>
-            <h2>Join SmartWave Today and Transform Your Online Success!</h2>
+            <h2>Join SmartWave Today and <strong>Transform</strong> Your <strong>Online Success!</strong></h2>
             <button>Get started</button>
         </div>
 

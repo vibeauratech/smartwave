@@ -5,7 +5,7 @@ function Feature() {
   return (
     <div className='feature'>
       <span className='feat'>FEATURES</span>
-      <h2>What SmartWave does for users?</h2>
+      <h2>What SmartWave does for <strong>users?</strong></h2>
 
       <div className='key-features'>
         <div className='key'>

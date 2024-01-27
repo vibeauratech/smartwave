@@ -15,6 +15,10 @@
     font-size: 48px;
 }
 
+.benefit h2 strong{
+    color: #F29F05;
+}
+
 .ben-con{
     width: 90%;
     margin: 0 auto;

@@ -18,11 +18,11 @@ function Footer() {
             <p>Company</p>
             <span>About Us</span>
             <span>FAQs</span>
-            <span>About Us</span>
+            <span>Contact Us</span>
           </div>
 
           <div className='footer-link'>
-            <p>Info</p>
+            <p>Information</p>
             <span>Affiliate network</span>
             <span>Vendors</span>
             <span>Refund Policy</span>
@@ -53,15 +53,17 @@ function Footer() {
 
           <div className='copy-con'>
              <div>
-              <span><strong>Changes to terms:</strong> SmartWave reserves the right to amend any portion of our Terms of Service and Privacy Policy as users will be duly notified of any modifications. </span>
+              <p>Lagos Office</p>
+              <span>Federal Mogul Plaza, 2nd Floor Zone C,Block 9A, ASPMDA Trade Fair Complex,Badagry Express Way, Lagos </span>
              </div>
 
              <div>
-              <span><strong>User data privacy:</strong> SmartWave values your privacy as any information your share is governed by our privacy policy </span>
+               <p>London Office</p>
+              <span>5 Beechvale Close London,N129AW London,United Kingdom</span>
              </div>
 
-            <div className='copy'>
-              <p>Copyright © 2023 SmartWave </p>
+            <div >
+              <p className='copy'>Copyright © 2023 SmartWave </p>
             </div> 
           </div>
 

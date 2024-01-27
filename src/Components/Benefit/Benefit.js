@@ -5,7 +5,7 @@ function Benefit() {
   return (
     <div className='benefit'>
          <span className='feat'>BENEFITS</span>
-         <h2>Why Choose SmartWave as Your Affiliate Partner?</h2>
+         <h2>Why Choose <strong>SmartWave</strong> as Your<strong>Affiliate</strong> Partner?</h2>
 
          <div className='ben-con'>
             <div className='ben-box'>

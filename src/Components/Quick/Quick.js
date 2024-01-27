@@ -9,7 +9,7 @@ function Quick() {
         </div> 
 
         <div>
-            <h2>Ready to Transform Your Future with SmartWave?</h2>
+            <h2>Ready to Transform <strong>Your Future</strong> with SmartWave?</h2>
             
             <div className='signing'>
                 <div className='signing-info'>

@@ -26,6 +26,11 @@
     line-height: 30px;
 }
 
+.brief div span{
+    font-size: 18px;
+    font-family:'Aoenik-Regular';   
+}
+
 @media screen and (max-width:900px){
     .brief{
         width: 90%;
@@ -41,6 +46,7 @@
     
     .brief div{
         flex-basis: 100%;
+        text-align: center;
     }
 
     .brief div h2{
@@ -58,5 +64,10 @@
         font-size: 18px;
         line-height: 30px;
         text-align: center;
+    }
+
+    .brief div span{
+        font-family:'Aoenik-Regular';
+        text-align: center;   
     }
 }

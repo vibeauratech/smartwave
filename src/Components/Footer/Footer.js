@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import {Link} from "react-router-dom"
 
 function Footer() {
   return (
@@ -16,24 +17,23 @@ function Footer() {
          <div className='footer-rep'>
           <div className='footer-link'>
             <p>Company</p>
-            <span>About Us</span>
-            <span>FAQs</span>
-            <span>Contact Us</span>
+            <Link  to= {`./about`}> <span>About Us</span></Link>
+            <Link  to= {`./faq`}>   <span>FAQs</span></Link>
+            <Link  to= {`./contact`}> <span>Contact Us</span></Link>
           </div>
 
           <div className='footer-link'>
             <p>Information</p>
-            <span>Affiliate network</span>
-            <span>Vendors</span>
-            <span>Refund Policy</span>
-            <span>FAQs</span>
+            <Link  to= {`./affiliate`}> <span>Affiliate Network</span></Link>
+            <Link  to= {`./vendor`}> <span>Vendors</span></Link>
+            <Link  to= {`./refund`}> <span>Refund Policy</span></Link>        
           </div>
 
           <div className='footer-link'>
-            <p>Help</p>
-            <span>Terms of Use</span>
-            <span>Privacy Policy</span>
-            <span>Disclaimer</span>
+            <p>Legal</p>
+            <Link  to= {`./terms`}><span>Terms of Use</span></Link>
+            <Link  to= {`./privacy`}><span>Privacy Policy</span></Link>
+            <Link  to= {`./disclaimer`}><span>Disclaimer</span></Link>
           </div>
          </div>
         </div>
@@ -44,26 +44,26 @@ function Footer() {
             <span>Connect with us on these networks</span>
 
             <div className='social-links'>
-              <div className='social-box'><img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706376471/icons8-facebook-50_mygc3g.png" alt=""/></div>
-              <div className='social-box'><img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706376471/icons8-x-50_mmnjjz.png" alt=""/></div>
-              <div className='social-box'><img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706376471/icons8-instagram-50_1_spmzfu.png" alt=""/></div>
-              <div className='social-box'><img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706376471/icons8-linkedin-48_rwii0j.png" alt=""/></div>
+              <Link  to= {"https://Facebook.com/smartwaveng"}> <div className='social-box'><img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706376471/icons8-facebook-50_mygc3g.png" alt=""/></div></Link>
+              <Link  to= {"http://Twitter.com/smartwaveng"}> <div className='social-box'><img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706376471/icons8-x-50_mmnjjz.png" alt=""/></div></Link>
+              <Link  to= {"http://Instagram.com/smartwaveng"}> <div className='social-box'><img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706376471/icons8-instagram-50_1_spmzfu.png" alt=""/></div></Link>
+              <Link  to= {"http://tiktok.com/@Smartwaveng"}> <div className='social-box'><img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706472517/icons8-tiktok-50_dlug3j.png" alt=""/></div></Link>
             </div>
           </div>
 
           <div className='copy-con'>
              <div>
               <p>Lagos Office</p>
-              <span>Federal Mogul Plaza, 2nd Floor Zone C,Block 9A, ASPMDA Trade Fair Complex,Badagry Express Way, Lagos </span>
+              <span>Federal Mogul Plaza, 2nd Floor Zone C,Block 9A, ASPMDA Trade Fair Complex, Badagry Express Way, Lagos </span>
              </div>
 
              <div>
                <p>London Office</p>
-              <span>5 Beechvale Close London,N129AW London,United Kingdom</span>
+              <span>5 Beechvale Close London, N129AW London, United Kingdom</span>
              </div>
 
             <div >
-              <p className='copy'>Copyright © 2023 SmartWave </p>
+              <p className='copy'>Copyright © 2024 SmartWave </p>
             </div> 
           </div>
 

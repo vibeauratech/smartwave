@@ -26,6 +26,13 @@
     color: #F29F05;
 }
 
+.feature h3{
+    width: 60%;
+    margin: 0 auto;
+    font-family:'Aoenik-Light'; 
+    text-align: center;
+}
+
 .key-features{
     margin-top: 50px;
     display: flex;

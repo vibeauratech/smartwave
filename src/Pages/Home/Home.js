@@ -16,8 +16,7 @@ function Home() {
       <Benefit />
       <Quick />
       <Testimonial />
-      <Cta />
-  
+      <Cta />  
     </div>
   )
 }

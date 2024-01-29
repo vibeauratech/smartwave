@@ -98,8 +98,7 @@ const Navbar = () => {
                          transitionDelay : navOpen ? "0s" : "0s" 
                       }}>Contact Us</Link>
                        <div className='nav-wrapper'></div>
-                    </li>  
-           
+                    </li>      
                 </ul>
             </div>
           </div> 

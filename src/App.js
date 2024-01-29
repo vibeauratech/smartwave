@@ -11,8 +11,13 @@ import Affiliate from './Pages/Affiliate/Affiliate';
 import Vendor from './Pages/Vendor/Vendor';
 import Faq from './Pages/Faq/Faq';
 import Contact from './Pages/Contact/Contact';
-
+import About from './Pages/About/About';
+import Terms from './Pages/Terms/Terms';
+import Privacy from './Pages/Privacy/Privacy';
+import Disclaimer from "./Pages/Disclaimer/Disclaimer";
+import Refund from "./Pages/Refund/Refund";
 import './App.css';
+
 
 const Layout = () =>{
   return(
@@ -53,6 +58,31 @@ const router = createBrowserRouter([
       {
         path:"/contact",
         element:<Contact/>,
+      },   
+
+      {
+        path:"/about",
+        element:<About/>,
+      },  
+
+      {
+        path:"/terms",
+        element:<Terms/>,
+      },
+
+      {
+        path:"/privacy",
+        element:<Privacy/>,
+      },  
+
+      {
+        path:"/disclaimer",
+        element:<Disclaimer/>,
+      },  
+
+      {
+        path:"/refund",
+        element:<Refund/>,
       },    
     ]
   },

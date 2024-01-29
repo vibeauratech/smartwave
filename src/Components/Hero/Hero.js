@@ -9,7 +9,7 @@ function Hero() {
 
        <div className='hero-btn'>
         <button className='get'>Get Started</button>
-        <button className='learn'>Learn more</button>
+        <button className='learn'>Learn More</button>
        </div>
 
        <div className='hero-img'>

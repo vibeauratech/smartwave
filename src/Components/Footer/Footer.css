@@ -50,13 +50,21 @@
     
 }
 
+
+
 .footer-link p{
     font-family:'Aoenik-Bold';
     font-size: 18px;
 }
 
-.footer-link span{
+.footer-link a span{
+    color: #fff;
     font-family:'Aoenik-Regular';
+    transition: all ease-in 0.3s;
+}
+
+.footer-link a span:hover{
+    color:#F29F05 ;
 }
 
 .dist{
@@ -92,12 +100,14 @@
    padding: 10px;
    border-radius: 50%;
    background: #8C29E4;
+   border: 2px solid #8C29E4;
    cursor: pointer;
    transition: all ease-in 0.3s;
  }
 
  .social-box:hover{
     background: #671da8; 
+    border: 2px solid #8C29E4;
  }
 
  .social-box img{

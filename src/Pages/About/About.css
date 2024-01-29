@@ -68,6 +68,18 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 15px;
+}
+
+.about-text div button{
+    margin-top: 15px;
+    background: #8C29E4;
+    color: #fff;
+    font-family:'Aoenik-Bold';
+    border: none;
+    border-radius: 30px;
+    padding: 12px 20px;
+    cursor: pointer;
 }
 
 .about-rev{
@@ -101,6 +113,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 15px;
 }
 
 .core-features{
@@ -195,9 +208,5 @@
     .about-rev div h2{
         font-size: 36px;
         font-family:'Aoenik-Bold';
-    }
-
-
-
-        
+    }        
 }

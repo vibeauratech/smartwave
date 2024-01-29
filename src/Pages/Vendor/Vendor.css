@@ -1,3 +1,48 @@
+.bar-img{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.bar-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.guide{
+    width: 90%;
+    margin: 0 auto; 
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+}
+
+.guide h2{
+    width: 70%;
+    font-family:'Aoenik-Bold';
+    font-size: 48px;
+    text-align: center;
+}
+
+.guide p{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    font-family:'Aoenik-Regular';  
+}
+
+
 .steps-con{
     width: 90%;
     margin: 0 auto;
@@ -7,39 +52,140 @@
     gap: 60px;
 }
 
-.steps h2{
-    font-family:'Aoenik-Bold';
-    font-size: 48px;
-    margin-bottom: 10px;
+.step-one{
+    width: 90%;
+    margin: 0 auto;
+    background: #f9f9f9;
+    border-radius: 20px;
+    padding: 30px;
 }
 
-.steps p{
-    width: 85%;
+.step-one h2{
+    font-family:'Aoenik-Bold';
+    font-size: 24px;
+    margin-bottom: 10px;  
+}
+
+.step-one p{
+    width: 90%;
     font-size: 18px;
     line-height: 30px;
     font-family:'Aoenik-Regular';
 }
 
+.marketplace{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 120px;
+    background: #F29F05;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.marketplace h2{
+    width: 79%;
+    color: #fff;
+    font-size: 48px;
+    font-family:'Aoenik-Bold';
+}
+
+
+.marketplace button{
+    margin-top: 25px;
+    background: #fff;
+    font-family:'Aoenik-Bold';
+    border: none;
+    border-radius: 30px;
+    padding: 12px 35px;
+    cursor: pointer;
+}
+
+
 @media screen and (max-width:900px){
+    .bar-img{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 60px;
+        padding: 10px;
+        background: #fff;
+        border-radius: 20px;
+    }
+
+    .guide{
+        width: 90%;
+        margin: 0 auto; 
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px; 
+    }
+
+    .guide h2{
+        width: 100%;
+        font-family:'Aoenik-Bold';
+        font-size: 36px;
+        text-align: center;
+    }
+    
+    .guide p{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 18px;
+        line-height: 30px;
+        font-family:'Aoenik-Regular';  
+    }
+    
     .steps-con{
         width: 90%;
         margin: 0 auto;
-        margin-top: 60px;
+        margin-top: 30px;
         display: flex;
         flex-direction: column;
         gap: 30px;
     }
 
-    .steps h2{
-        font-family:'Aoenik-Bold';
-        font-size: 36px;
-    }   
+    .step-one{
+        width: 100%;
+        margin: 0 auto;
+        background: #f2f2f2;
+        border-radius: 20px;
+        padding: 20px;
+    }
     
-    .steps p{
+    .step-one p{
         width: 100%;
         font-size: 18px;
         line-height: 30px;
         font-family:'Aoenik-Regular';
     }
-    
+
+    .marketplace{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 60px;
+        background: #F29F05;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 40px 30px;
+    }
+
+    .marketplace h2{
+        width: 100%;
+        color: #fff;
+        font-size: 36px;
+        font-family:'Aoenik-Bold';
+    }  
 }

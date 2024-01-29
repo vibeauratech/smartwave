@@ -1,57 +1,62 @@
 import React from 'react'
 import './Affiliate.css';
+import {Link} from "react-router-dom"
 
 function Affiliate() {
   return (
     <div>
-      <div className='about-hero'>
-        <h2>Affiliate Network</h2>
-        <p>Become part of Africa's Premier Affiliate Network with SmartWave!</p>
+      <div className='hero'>
+       <h2>Become part of Africa's Premier Affiliate Network with SmartWave!</h2>
+       <p>SmartWave, the leading platform, connects digital creators with a vast audience. Earn over N500, 000 a month selling products in our affiliate platform, registering businesses and from referrals. You can start selling immediately, earning commissions for every sale through your affiliate link. Join us and amplify your impact and income! 🚀💡 #SmartWaveAffiliates #ElevateYourEarnings </p>
 
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-      </div>
+       <div className='hero-btn'>
+        <button className='get'>Sign Up Now</button>
+       </div>
 
-      <div className='brief'>
-        <div>
-            <h2>
-            Africa's Premier Hub for Digital Creators and Affiliates
-            </h2>
-            <br></br>
-            <span>Over 50,000 Affiliate Partners, Affiliates Earning NGN 100,000,000+</span>  <br></br> <br></br>
+      <div className='bar'></div>
 
-            <span>SmartWave rewards affiliates generously with a 50% referral bonus for every successful recommendation. Join now! 💰🚀</span>  <br></br>
-        </div>
+       <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+    </div>
 
-        <div>
-            <p>
-              SmartWave, the leading platform, connects digital creators with a vast audience. Earn over N500, 000 a month selling products in our affiliate platform, registering businesses and from referrals. You can start selling immediately, earning commissions for every sale through your affiliate link. Join us and amplify your impact and income! 🚀💡 #SmartWaveAffiliates #ElevateYourEarnings 
-            </p>
+    <div className='con'>
+         <div className='about-text'>
+            <div>
+            <h2>Over 50,000 Affiliate Partners </h2>
+            <button>Become an affiliate</button>
+            </div>
 
-            <br></br>
-            
-           <p>SmartWave rewards affiliates generously with a 50% referral bonus for every successful recommendation. Join now! 💰🚀</p>
-        </div>
-      </div>
+            <div>
+              <img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706483476/african-females-shopping-online-while-sitting-park_jdutkj.jpg" alt="" />
+            </div>
+         </div>
 
-      <div className='affiliate-img'>
-        <div><img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706483476/medium-shot-man-working-laptop_jyddes.jpg" alt="" /></div>
-        <div><img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706483476/african-females-shopping-online-while-sitting-park_jdutkj.jpg" alt="" /></div>
-        <div><img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706483473/african-american-male-freelancer-sitting-by-large-window-hotel-lobby-using-wireless-internet-connection-working-remotely-laptop-sending-voice-message-via-online-app-mobile-phone_yhb2xl.jpg" alt="" /></div>
-      </div>
+         <div className='about-rev'>
+            <div>
+              <img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706483473/african-american-male-freelancer-sitting-by-large-window-hotel-lobby-using-wireless-internet-connection-working-remotely-laptop-sending-voice-message-via-online-app-mobile-phone_yhb2xl.jpg" alt="" />
+            </div>
 
+            <div>
+                <h2>Affiliates Earning NGN 100,000,000+</h2>
+                <button>Become an affiliate</button>
+            </div>
+         </div>
+
+    </div>
+
+   
       <div className='benefit'>
          <span className='feat'>OUR RANGE</span>
          <h2>Diversify Your Affiliate Portfolio with SmarWave</h2>
@@ -131,9 +136,18 @@ function Affiliate() {
                     <span>Earn commissions whenever your link drives a sale or you register a business for someone on the platform. Withdraw funds at your convenience, unrestricted by weekly limits</span>
                 </div>
             </div>
-
             <button>Get started</button>
         </div>     
+    </div>
+
+    <div className='faq-filler'>
+       <h2>Frequently asked questions</h2>
+       <Link  to= {`/Faq`}><button>View FAQ</button></Link>
+    </div>
+
+    <div className='marketplace'>
+      <h2>SmartWave rewards affiliates generously with a 50% referral bonus for every successful recommendation.</h2>
+      <button>Join now! 💰🚀</button>
     </div>
 
     </div>

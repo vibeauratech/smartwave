@@ -35,6 +35,7 @@ function Affiliate() {
     <div className='aff'>
       <div className='aff-lite'>
         <h2>Over 50,000 Affiliate Partners</h2>
+        
         <div>
           <img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706483476/african-females-shopping-online-while-sitting-park_jdutkj.jpg" alt="" />
         </div>

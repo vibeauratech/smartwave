@@ -1,0 +1,36 @@
+.steps-con{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.steps h2{
+    font-family:'Aoenik-Bold';
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.steps p{
+    font-size: 18px;
+    line-height: 30px;
+    font-family:'Aoenik-Regular';
+}
+
+@media screen and (max-width:900px){
+    .steps-con{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .steps h2{
+        font-family:'Aoenik-Bold';
+        font-size: 36px;
+    }      
+}

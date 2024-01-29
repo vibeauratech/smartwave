@@ -30,7 +30,7 @@ function Affiliate() {
             Africa's Premier Hub for Digital Creators and Affiliates
             </h2>
             <br></br>
-            <span>Over 50,000 Affiliate Partners, Affiliates Earning NGN 100,000,000+</span>  <br></br>
+            <span>Over 50,000 Affiliate Partners, Affiliates Earning NGN 100,000,000+</span>  <br></br> <br></br>
 
             <span>SmartWave rewards affiliates generously with a 50% referral bonus for every successful recommendation. Join now! 💰🚀</span>  <br></br>
         </div>

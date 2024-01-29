@@ -94,6 +94,15 @@
     font-family:'Aoenik-Bold';
 }
 
+.marketplace p {
+    width: 70%;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-family:'Aoenik-Regular';   
+}
+
 
 .marketplace button{
     margin-top: 25px;
@@ -103,6 +112,13 @@
     border-radius: 30px;
     padding: 12px 35px;
     cursor: pointer;
+    transition:  all ease-in 0.3s;
+}
+
+
+.marketplace button:hover{
+    background: #8C29E4;
+    color: #fff;
 }
 
 
@@ -179,13 +195,23 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 40px 30px;
+        padding: 40px 20px;
     }
 
     .marketplace h2{
         width: 100%;
         color: #fff;
-        font-size: 36px;
+        font-size: 28px;
         font-family:'Aoenik-Bold';
     }  
+
+    .marketplace p {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        color: #fff;
+        font-size: 18px;
+        font-family:'Aoenik-Regular';   
+    }
+    
 }

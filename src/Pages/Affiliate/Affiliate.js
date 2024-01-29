@@ -2,6 +2,7 @@ import React from 'react'
 import './Affiliate.css';
 import {Link} from "react-router-dom"
 
+
 function Affiliate() {
   return (
     <div>
@@ -31,29 +32,20 @@ function Affiliate() {
        
     </div>
 
-    <div className='con'>
-         <div className='about-text'>
-            <div>
-            <h2>Over 50,000 Affiliate Partners </h2>
-            <button>Become an affiliate</button>
-            </div>
+    <div className='aff'>
+      <div className='aff-lite'>
+        <h2>Over 50,000 Affiliate Partners</h2>
+        <div>
+          <img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706483476/african-females-shopping-online-while-sitting-park_jdutkj.jpg" alt="" />
+        </div>
+      </div>
 
-            <div>
-              <img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706483476/african-females-shopping-online-while-sitting-park_jdutkj.jpg" alt="" />
-            </div>
-         </div>
-
-         <div className='about-rev'>
-            <div>
-              <img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706483473/african-american-male-freelancer-sitting-by-large-window-hotel-lobby-using-wireless-internet-connection-working-remotely-laptop-sending-voice-message-via-online-app-mobile-phone_yhb2xl.jpg" alt="" />
-            </div>
-
-            <div>
-                <h2>Affiliates Earning NGN 100,000,000+</h2>
-                <button>Become an affiliate</button>
-            </div>
-         </div>
-
+      <div className='aff-dark'>
+        <h2>Affiliates Earning NGN 100,000,000+</h2>
+        <div>
+          <img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706483473/african-american-male-freelancer-sitting-by-large-window-hotel-lobby-using-wireless-internet-connection-working-remotely-laptop-sending-voice-message-via-online-app-mobile-phone_yhb2xl.jpg" alt="" />
+        </div>
+      </div>
     </div>
 
    
@@ -140,13 +132,22 @@ function Affiliate() {
         </div>     
     </div>
 
-    <div className='faq-filler'>
-       <h2>Frequently asked questions</h2>
-       <Link  to= {`/Faq`}><button>View FAQ</button></Link>
+    <div className='con'>
+       <div className='about-text'>
+            <div>
+            <h2>Frequently asked questions</h2>
+             <Link  to= {`/Faq`}><button>View Faqs</button></Link>
+            </div>
+
+            <div>
+              <img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706483476/medium-shot-man-working-laptop_jyddes.jpg" alt="" />
+            </div>
+         </div>
     </div>
 
     <div className='marketplace'>
-      <h2>SmartWave rewards affiliates generously with a 50% referral bonus for every successful recommendation.</h2>
+      <h2>SmartWave rewards affiliates generously with a 50% referral bonus for every successful recommendation</h2>
+      <p>Join our thriving community and start earning big by recommending exceptional products on SmartWave! 💻🌍 #DigitalCreators #AffiliateSuccess</p>
       <button>Join now! 💰🚀</button>
     </div>
 

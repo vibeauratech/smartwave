@@ -1,0 +1,24 @@
+.pad-list{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.pad-list p{
+    font-size: 18px;
+    font-family:'Aoenik-Regular';
+    margin-top: -10px;
+}
+
+.pad-list div{
+    display: flex;
+    gap: 15px;
+}
+
+.dot{
+    width: 6px;
+    height: 6px;
+    background: #000;
+}

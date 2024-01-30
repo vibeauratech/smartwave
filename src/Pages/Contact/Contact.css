@@ -1,0 +1,155 @@
+.contact{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+
+.contact div{
+    flex-basis: 45%;
+}
+
+.contact-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.soc-con{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family:'Aoenik-Bold';
+    text-align: center;
+}
+
+.contact-box div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-box div h2{
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 24px;
+    font-family:'Aoenik-Bold';
+    text-align: center;
+}
+
+.contact-box div p{
+    font-family:'Aoenik-Bold';
+    text-align: center;  
+}
+
+.contact-box div span{
+    font-family:'Aoenik-Regular';   
+  text-align: center;  
+}
+
+.mail-link{
+    color: #000;
+    font-family:'Aoenik-Regular';   
+}
+
+.contact-form {
+    background: #f2f7f8;
+    padding: 30px;
+}
+
+.contact-form h2{
+    font-family:'Aoenik-Regular';
+    margin-bottom: 30px; 
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}  
+
+form label{
+    font-family:'Aoenik-Regular';
+  }
+
+  .pad{
+    margin-top: 20px;
+  }
+
+  form input{
+     background: #fff;
+     font-family:'Aoenik-Regular';
+     color: #5F5D5D;
+     outline: none;
+     border: none;
+     padding: 20px;
+  }
+
+  select{
+    background: #fff;
+    font-family:'Aoenik-Regular';
+    color: #5F5D5D;
+    outline: none;
+    border: none;
+    padding: 20px;
+}
+
+.option{
+    background: #fff;  
+    padding: 20px;
+    font-size: 18px;
+    font-family:'Aoenik-Regular';
+}
+
+
+  textarea{
+    background: #fff;
+    font-family:'Aoenik-Regular';
+    color: #5F5D5D;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    height: 100px;
+  }
+
+  .submit-btn{
+    background: #8C29E4;
+    color: #fff;
+    margin-top: 30px;
+    transition: all ease-in 0.3s;
+    font-family:'Aoenik-Regular';
+    cursor: pointer;
+    
+  }
+
+  .submit-btn:hover{
+    background: #671da8; 
+  }
+
+  @media screen and (max-width:900px){
+    .contact{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: space-between;
+        padding-top: 150px;
+    }
+    
+    .contact div{
+        flex-basis: 100%;
+    }
+  }

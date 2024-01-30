@@ -11,7 +11,7 @@ function Contact() {
         <div className='contact-box'>
           <div>
            <h2>Email support</h2>
-           <Link className='mail-link' to= {"mailto:SUPPORT@SMARTWAVE.NG?subject = Feedback&body = Message"}>SUPPORT@SMARTWAVE.NG</Link>
+           <Link className='mail-link' to= {"mailto:support@SmartWave.ng?subject = Feedback&body = Message"}>support@SmartWave.ng</Link>
           </div>
 
           <h2>Office Address</h2>

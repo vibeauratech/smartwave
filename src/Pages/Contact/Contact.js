@@ -53,7 +53,7 @@ function Contact() {
       console.log(res)
       if (res) {
         alert(res.data.message)
-      } alert("An error occured while sendig the mail")
+      } alert("An error occured while sending the mail")
     }
   }
   return (

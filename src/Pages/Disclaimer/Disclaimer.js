@@ -4,27 +4,11 @@ import './Disclaimer.css';
 function Disclaimer() {
   return (
     <div>
-
-    <div className='hero'>
-       <h2>Disclaimer</h2>
-      
-      <div className='bar'></div>
-
-       <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>      
-    </div>
-
+        <div className='faq-div'>
+          <div className='faq-overlay'>
+            <h2>Disclaimer</h2>
+          </div>
+         </div>
 
     <div className='disclaimer'>
       <p>Except as expressly stated in an agreement between you and SmartWave, all contents, services, products, and software provided on this website are offered 'as is' without any warranty of any kind, whether expressed or implied. SmartWave disclaims all warranties, including, but not limited to, those of merchantability, fitness for a particular purpose, and non-infringement.</p>

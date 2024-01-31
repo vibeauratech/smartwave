@@ -20,29 +20,19 @@ const AccordionItem = ({ header, ...rest }) => (
 function Faq() {
   return (
     <div>
-      <div className='hero'>
-        <h2>FAQs</h2>
-        <p>Frequently Asked Questions - SmartWave Marketplace</p>
 
-        <div className='bar'></div>
+        <div className='faq-div'>
+          <div className='faq-overlay'>
+            <h2>FAQs</h2>
+          </div>
+         </div>
 
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-      </div>
+     
 
       <div className='faq'>
+      <div className='header'>
+           <h2>Frequently Asked Questions- SmartWave Marketplace</h2>
+         </div>
          {/* `transitionTimeout` prop should be equal to the transition duration in CSS */}
          <Accordion transition transitionTimeout={250}>
           <AccordionItem header="What is SmartWave and how does it work?" initialEntered>

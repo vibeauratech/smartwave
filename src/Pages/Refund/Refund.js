@@ -4,26 +4,18 @@ import './Refund.css';
 function Refund() {
   return (
     <div >
-      <div className='hero'>
-      <h2>SmartWave Refund Policy</h2>
-          <p>As a buyer, you can confidently make purchases knowing they are backed by SmartWave's robust 30-Day money-back guarantee, specifically designed for digital products.</p>
+        <div className='term-div'>
+          <div className='term-overlay'>
+            <h2> Refund Policy</h2>
+          </div>
+         </div>
 
-      <div className='bar'></div>
+         <div className='term-header'>
+          <h2>SmartWave Refund Policy</h2>
+           <p>As a buyer, you can confidently make purchases knowing they are backed by SmartWave's robust 30-Day money-back guarantee, specifically designed for digital products</p>
+         </div>
 
-       <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>      
-    </div>
+      
     
      
 

@@ -59,25 +59,11 @@ function Contact() {
   return (
     <div>
 
-       <div className='hero'>
-       <h2>Contact Us</h2>
-
-      <div className='bar'></div>
-
-       <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>      
-    </div>
+        <div className='faq-div'>
+          <div className='faq-overlay'>
+            <h2>Contact Us</h2>
+          </div>
+         </div>
 
      <div className='contact' >
       <div className='contact-con'>

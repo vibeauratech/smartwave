@@ -4,28 +4,16 @@ import './Privacy.css';
 function Privacy() {
   return (
     <div>
-      <div className='hero'>
-      <h2>SmartWave Privacy Policy</h2>
-          <p>This privacy policy describes SmartWave's policies and procedures for the collection, use, and disclosure of your information when you respond to our advertisements and tells you about your privacy rights and how the law protects you. We use your personal data to contact and support you, as well as to provide and improve the service. By using the service, you agree to the collection and use of information in accordance with this privacy policy.</p>
+      <div className='term-div'>
+          <div className='term-overlay'>
+            <h2> Privacy Policy</h2>
+          </div>
+         </div>
 
-     
-      <div className='bar'></div>
-
-       <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>      
-    </div>
-
+         <div className='term-header'>
+          <h2>SmartWave Privacy Policy</h2>
+           <p>This privacy policy describes SmartWave's policies and procedures for the collection, use, and disclosure of your information when you respond to our advertisements and tells you about your privacy rights and how the law protects you. We use your personal data to contact and support you, as well as to provide and improve the service. By using the service, you agree to the collection and use of information in accordance with this privacy policy.</p>
+         </div>
 
       <div className='refund'>
         <span>Interpretation and Definitions</span>

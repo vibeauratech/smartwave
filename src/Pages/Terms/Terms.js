@@ -4,27 +4,17 @@ import './Terms.css';
 function Terms() {
   return (
     <div >
-      <div className='hero'>
-       <h2>SmartWave Marketplace Comprehensive Terms & Conditions</h2>
-    
-      <div className='bar'></div>
+       <div className='term-div'>
+          <div className='term-overlay'>
+            <h2>Terms of Use</h2>
+          </div>
+         </div>
 
-       <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>      
-      </div>
-      
+         <div className='term-header'>
+           <h2>SmartWave Marketplace Comprehensive Terms & Conditions</h2>
+         </div>
 
+     
       <div className='term-con'>
         <h2>Introduction</h2>
         <p>Welcome to SmartWave! These Comprehensive Terms and Conditions ("Agreement") are designed to govern your experience as a participant in the SmartWave digital marketplace, whether as a buyer, vendor, or affiliate. Your registration and usage of SmartWave imply your understanding and agreement to comply with the regulations outlined herein. It is crucial to familiarize yourself with the details provided below. SmartWave retains the right to revise this Agreement, providing notice of such changes.</p>

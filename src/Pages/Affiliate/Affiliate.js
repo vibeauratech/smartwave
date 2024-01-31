@@ -28,8 +28,7 @@ function Affiliate() {
         <div className='flake'></div>
         <div className='flake'></div>
         <div className='flake'></div>
-        <div className='flake'></div>
-       
+        <div className='flake'></div>      
     </div>
 
     <div className='aff'>

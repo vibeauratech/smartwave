@@ -5,25 +5,28 @@ import './About.css';
 function About() {
   return (
     <div>
-      <div className='about-hero'>
-        <h2>About Us</h2>
-        <p>Discover SmartWave</p>
+       <div className='hero'>
+       <h2>About SmartWave</h2>
+       <p>Discover smartwave</p>
 
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
-        <div className='flake'></div>
+       <div className='bar-img'>
+        <img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706476868/marketing-ideas-share-research-planning-concept_uskq89.jpg" alt="" />
       </div>
+
+       <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>      
+    </div>
 
       <div className='con'>
          <div className='about-text'>

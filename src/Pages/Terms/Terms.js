@@ -3,16 +3,27 @@ import './Terms.css';
 
 function Terms() {
   return (
-    <div className='terms'>
-      <div className='term-intro'>
-        <div className='term-text'>
-          <h2>SmartWave Marketplace Comprehensive Terms & Conditions</h2>
-        </div>
+    <div >
+      <div className='hero'>
+       <h2>SmartWave Marketplace Comprehensive Terms & Conditions</h2>
+    
+      <div className='bar'></div>
 
-        <div className='term-img'>
-          <img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706570762/man-holding-contract-his-new-office-job-after-interview_fwoevf.jpg" alt="" /> 
-        </div>
+       <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>      
       </div>
+      
 
       <div className='term-con'>
         <h2>Introduction</h2>

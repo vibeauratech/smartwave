@@ -4,16 +4,28 @@ import './Privacy.css';
 function Privacy() {
   return (
     <div>
-      <div className='term-intro'>
-        <div className='term-text'>
-          <h2>SmartWave Privacy Policy</h2>
+      <div className='hero'>
+      <h2>SmartWave Privacy Policy</h2>
           <p>This privacy policy describes SmartWave's policies and procedures for the collection, use, and disclosure of your information when you respond to our advertisements and tells you about your privacy rights and how the law protects you. We use your personal data to contact and support you, as well as to provide and improve the service. By using the service, you agree to the collection and use of information in accordance with this privacy policy.</p>
-        </div>
 
-        <div className='term-img'>
-          <img src="https://res.cloudinary.com/dxnukbo0u/image/upload/v1706573577/woman-holding-padlock-laptop_x329r0.jpg" alt="" /> 
-        </div>
-      </div>
+     
+      <div className='bar'></div>
+
+       <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>
+        <div className='flake'></div>      
+    </div>
+
 
       <div className='refund'>
         <span>Interpretation and Definitions</span>

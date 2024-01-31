@@ -1,7 +1,7 @@
 .disclaimer{
     width: 90%;
     margin: 0 auto;
-    padding-top: 150px;
+    padding-top: 120px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -20,5 +20,13 @@
 }
 
 @media screen and (max-width:900px){
-    
+    .disclaimer{
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+     
 }

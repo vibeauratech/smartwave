@@ -3,7 +3,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    padding-top: 150px;
+    padding-top: 120px;
 }
 
 .contact div{
@@ -146,7 +146,7 @@ form label{
         flex-direction: column-reverse;
         gap: 40px;
         justify-content: space-between;
-        padding-top: 150px;
+        padding-top: 60px;
     }
     
     .contact div{

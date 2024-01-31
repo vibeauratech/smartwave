@@ -20,9 +20,11 @@ const AccordionItem = ({ header, ...rest }) => (
 function Faq() {
   return (
     <div>
-      <div className='about-hero'>
+      <div className='hero'>
         <h2>FAQs</h2>
         <p>Frequently Asked Questions - SmartWave Marketplace</p>
+
+        <div className='bar'></div>
 
         <div className='flake'></div>
         <div className='flake'></div>

@@ -256,7 +256,7 @@
         font-size: 12px;
         border-radius: 30px;
         outline: none;
-        padding: 10px 8px;
+        padding: 10px 20px;
         cursor: pointer;
         transition: all ease-in 0.3s;
     }
